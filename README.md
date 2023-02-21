@@ -38,7 +38,7 @@ Execution Instructions.
 
 2. API_2.py is for solution2 of the task. Extend the tool to give the difference between two namespaces to show when some services are missing or running different image versions. Deploy to a second namespace and make a few changes to it so that we can see the difference in output.
 
-	I changed the image version for catalogue in the deployment manifest from version 0.3.5 to 0.3.4
+	Change the image version for catalogue in the deployment manifest (i.e from version 0.3.5 to 0.3.4).
 
 	Run python3 API_2.py
 	
