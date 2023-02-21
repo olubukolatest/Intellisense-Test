@@ -1,7 +1,6 @@
 # Intellisense-Test
 Take home Test
-#Use the Kuberenetes API and create a simple command line tool to provide a table output which includes
-#the following details:
+#Use the Kuberenetes API and create a simple command line tool to provide a table output which includes the following details:
 ● Name of deployments
 ● Images of each deployment
 ● Date deployment was updated
@@ -13,25 +12,34 @@ we can see the difference in output.
 # Execution Instruction
 Instruction on how to Run the tool.
 
-Requirements
+#Requirements
 1. Ubuntu KOPS cluster
-2. Python
+
+3. Python
+
+	sudo apt install python
 	
-#	sudo apt install python
 3. Python package installer - PIP
-#	sudo apt install python3-pip
+
+	sudo apt install python3-pip
+	
 4. install Tabulate
 	This is used to give a clean tabulated view of the results 
-#	sudo pip install tabulate
+	
+	sudo pip install tabulate
 
 Execution Instructions.
 
 1. API_1.py is for solution 1 of the task. In other to 	execute this. 
-#	Run python3 API_1.py
+
+	Run python3 API_1.py
+	
 	This would give the result in "image for solution1.jpg"
 
 2. API_2.py is for solution2 of the task, which gives extends the tool.
-#	Run python3 API_2.py
+
+	Run python3 API_2.py
+	
 	This would give the result in "image for solution2.jpg"
 
 
