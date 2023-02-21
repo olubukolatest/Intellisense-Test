@@ -13,7 +13,7 @@ we can see the difference in output.
 Instruction on how to Run the tool.
 
 #Requirements
-1. Ubuntu KOPS cluster
+1. Kubernetes Cluster
 
 3. Python
 
@@ -30,13 +30,15 @@ Instruction on how to Run the tool.
 
 Execution Instructions.
 
-1. API_1.py is for solution 1 of the task. In other to 	execute this. 
+1. API_1.py is for solution 1 of the task.This tool is to provide a table output which includes the following details: Name of deployments, Images of each 	deployment, Date deployment was updated. In other to execute this. 
 
 	Run python3 API_1.py
 	
 	This would give the result in "image for solution1.jpg"
 
-2. API_2.py is for solution2 of the task, which gives extends the tool.
+2. API_2.py is for solution2 of the task. Extend the tool to give the difference between two namespaces to show when some services are missing or running different image versions. Deploy to a second namespace and make a few changes to it so that we can see the difference in output.
+
+	I changed the image version for catalogue in the deployment manifest from version 0.3.5 to 0.3.4
 
 	Run python3 API_2.py
 	
